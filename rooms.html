@@ -1,6 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>body {
+  }
+  
+  /* Additional Styling */
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .room-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-card h3 {
+    color: #333;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    color: #333;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Salin Hotel - Rooms</title>
@@ -23,19 +95,19 @@
 
     <div class="room-card">
       <h3>Standard Room</h3>
-      <p>Price: $100 per night</p>
+      <h3>Price: $100 per night</h3>
       <button onclick="reserveRoom('Standard Room')">Reserve</button>
     </div>
 
     <div class="room-card">
       <h3>Deluxe Room</h3>
-      <p>Price: $150 per night</p>
+      <h3>Price: $150 per night</h3>
       <button onclick="reserveRoom('Deluxe Room')">Reserve</button>
     </div>
 
     <div class="room-card">
       <h3>Executive Suite</h3>
-      <p>Price: $200 per night</p>
+      <h3>Price: $200 per night</h3>
       <button onclick="reserveRoom('Executive Suite')">Reserve</button>
     </div>
   </main>
