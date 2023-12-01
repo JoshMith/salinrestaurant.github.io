@@ -55,7 +55,8 @@ body {
   }
   
   .room-card h3 {
-    color: #333;
+    color: grey
+      
   }
   
   .service-card {
