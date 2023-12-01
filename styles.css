@@ -42,7 +42,7 @@ body {
   }
   
   p {
-    color: #555;
+    color: white;
   }
   
   .room-card {
@@ -97,7 +97,6 @@ body {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
   }
   
