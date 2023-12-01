@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
 
-    background-image: url("/home/josh/Desktop/web/image1_0.jpg");
+    background-image: url("image1_0.jpg");
   }
   
   header {
