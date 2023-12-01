@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salin Hotel - Rooms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Salin Hotel</h1>
+    <nav>
+        <a href="/home/josh/Desktop/web/index.html">Home</a>
+        <a href="/home/josh/Desktop/web/rooms.html">Rooms</a>
+        <a href="/home/josh/Desktop/web/services.html">Services</a>
+        <a href="/home/josh/Desktop/web/register.html">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Rooms</h2>
+
+    <div class="room-card">
+      <h3>Standard Room</h3>
+      <p>Price: $100 per night</p>
+      <button onclick="reserveRoom('Standard Room')">Reserve</button>
+    </div>
+
+    <div class="room-card">
+      <h3>Deluxe Room</h3>
+      <p>Price: $150 per night</p>
+      <button onclick="reserveRoom('Deluxe Room')">Reserve</button>
+    </div>
+
+    <div class="room-card">
+      <h3>Executive Suite</h3>
+      <p>Price: $200 per night</p>
+      <button onclick="reserveRoom('Executive Suite')">Reserve</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Salin Hotel. All rights reserved.
+  </footer>
+
+  <script>
+    function reserveRoom(roomType) {
+      var confirmation = confirm('Do you want to reserve the ' + roomType + '?');
+      if (confirmation) {
+        // Here, you can submit the choice to the server
+        alert('Reservation confirmed for ' + roomType);
+      }
+    }
+  </script>
+
+</body>
+</html>
